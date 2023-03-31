@@ -26,8 +26,12 @@ export const Hero = styled('div', {
 })
 
 export const Preview = styled('div', {
-  paddingRight: '$8',
   overflow: 'hidden',
+  height: 400,
+  borderRadius: '$md',
+  boxShadow: 'rgba(85, 20, 139, 0.8) 0px 22px 70px 4px',
+  // boxShadow:
+  //   'rgba(85, 20, 139, 0.4) -5px 5px, rgba(85, 20, 139, 0.3) -10px 10px, rgba(85, 20, 139, 0.2) -15px 15px, rgba(85, 20, 139, 0.1) -20px 20px, rgba(85, 20, 139, 0.05) -25px 25px',
 
   '@media(max-width: 600px)': {
     display: 'none',
